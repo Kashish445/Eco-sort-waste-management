@@ -105,6 +105,9 @@ app.get('/login', (req, res) => {
     res.render('mainlogin')
 });
 
+app.get('/kshitijbot', (req, res) => {
+    res.render('botkshitij')
+});
 app.get('/buyer', (req, res) => {
     res.render('buy')
 });
